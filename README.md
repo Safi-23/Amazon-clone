@@ -1,2 +1,2 @@
 # Amazon-clone
-This project is a front-end clone of Amazon,  crafted using HTML and CSS only. It  replicates key visual elements and the layout of the popular e-commerce platform, demonstrating a strong understanding of fundamental web development technologies. 
+This project is a front-end clone of Amazon, meticulously crafted using HTML and CSS only. It faithfully replicates key visual elements and the layout of the popular e-commerce platform, demonstrating a strong understanding of fundamental web development technologies. This project highlights proficiency in structuring web content with HTML and styling it responsively with CSS, showcasing the power of these core languages to create complex and visually appealing user interfaces.
