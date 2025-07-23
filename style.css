@@ -1,0 +1,362 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    border:border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 114px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.add-second{
+    margin-left: 3px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    height: 40px;
+    background-color: rgba(249, 186, 70, 0.921);
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid rgba(249, 186, 70, 0.921);
+}
+.search-select{
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 14px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: medium;
+    font-weight:500;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0f1111;
+}
+
+.nav-lang{
+    display: flex;
+    width: 73px;
+    height: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lang-img{
+    width: 21.60px;
+    height: 16.2px;
+}
+.lang-name{
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+.lang-arrow{
+    width: 8px;
+    height: 4px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    color: grey;
+}
+
+
+.first-line{
+    font-size: 12px;
+}
+.second-line{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-cart{
+    display: flex;
+}
+.cart-img{
+    font-size: 30px;
+}
+.cart-name{
+    width: 28px;
+    height: 15px;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 2px;
+}
+
+
+.panel{
+    background-color: #232F3E;
+    height: 40px;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.panel-all{
+    font-weight: 700;
+}
+.panel-options p{
+    display: inline;
+    font-size: 14px;
+    margin: 10px;
+    font-weight: 500;
+}
+.panel-options{
+    width: 85%;
+}
+.panel-deals{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+
+.hero-section{
+    background-image: url(hero-pic.jpg);
+    background-size: cover;
+    height: 350px;
+}
+.main-content{
+    background-color: rgba(239, 217, 218, 0.946);
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 0,10px;
+}
+
+.box{
+    height: 420px;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 20px,0px,15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.box-content p{
+    color: #007185;
+}
+
+.box-img{
+background-size: cover;
+height: 310px;
+margin-top: 7px;
+margin-bottom: 10px;
+}
+
+.box-content2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+ 
+}
+.box-img2{
+    background-size :auto;
+height: 120px;
+width: 150px;
+margin-top: 7px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 7px;
+}
+.box-content2-p{
+    color: #007185;
+    margin-left: 15px;
+    margin-top: 40px;
+
+}
+
+.sider-section2{
+    height: 280px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin: 20px;
+}
+.section-title{
+margin: 20px;
+vertical-align:middle;
+}
+.sider-section{
+    display: flex;
+    justify-content: flex-start;
+    height: 220px;
+    padding: 10px , 20px;
+    align-items: center;
+    margin-bottom :20px;
+    background-color: #ffffff;
+    margin: 20px;
+
+    overflow-x: scroll;
+    white-space: nowrap;
+    
+}
+
+.sider {
+    flex-shrink: 0; 
+    width: 200px; 
+    margin-right: 15px; 
+    display: inline-block;
+    vertical-align: top;
+} 
+.sider img{
+max-width: 100%;
+ height: auto;
+ display: block;
+ background-size: cover;
+}
+
+
+.signin-text{
+  margin: auto;
+  width: 30%;
+  padding: 10px; 
+}
+
+
+.line {
+    border-top: 1px solid #e7e7e7; /* Add a top border for the line effect */
+    margin: 20px 0; /* Add space above and below the line */
+    width: 100%; /* Make it span a certain width, or 100% */
+    color: #1e1818d0;
+}
+.oval{
+  margin: auto;
+  width: 10%;
+  padding: 10px;
+  height: 20px;
+  width: 250px;
+  background-color: rgba(249, 186, 70, 0.921);
+  border-radius: 25px;
+
+}
+
+.footer-panel1{
+background-color: #37475a;
+color: white;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: small;
+}
+.footer-panel2-content{
+    background-color: #232F3E;
+    color: #ffffff;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.footer-panel2 p{
+    font-weight: bold;
+}
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    font-weight:500;
+    color: #dddddd;
+    margin-top: 10px;
+}
+.footer-panel2 hr {
+    border: none; /* Remove default border */
+    border-top: 1px solid #1e1818d0; /* Add a 1px solid grey line */
+}
+.footer-panel3{
+    background-color: #232F3E;
+    color: #ffffff;
+    height: 110px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.logo1 img{
+    height: 50px;
+    background-size: cover;
+    margin-right: 70px;
+    margin-top: 1rem;
+}
+
+.language , .Currency, .Country{
+  width: 10%;
+  padding: 10px;
+  height: 15px;
+  width: 130px;
+  border-radius: 3px;
+  margin-left: 10px;
+  border: 1.5px solid #dddddd;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+
+}
+
